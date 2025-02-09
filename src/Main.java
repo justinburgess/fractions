@@ -1,7 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
+        // parse operation
         String operation = getOperation(args[1]);
+
         // create fractions
         Fraction fraction1 = new Fraction(args[0]);
         Fraction fraction2 = new Fraction(args[2]);
