@@ -19,7 +19,7 @@ public class Main {
         return switch (argument.toLowerCase()) {
             case "add", "+" -> "add";
             case "subtract", "minus", "-" -> "subtract";
-            case "/", "\\", "u+00f7", "divide", "division" -> "divide";
+            case "/", "\\", "÷", "divide", "division" -> "divide";
             case "*", "x", "by", "multipliedby" -> "multiply";
             default -> throw new IllegalArgumentException("Invalid operation submitted: " + argument);
         };
